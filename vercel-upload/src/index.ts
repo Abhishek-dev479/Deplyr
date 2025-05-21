@@ -15,7 +15,8 @@ subscriber.connect();
 const app = express();
 // app.use(cors());
 app.use(cors({
-  origin: "http://localhost:5173", // if you're using Vite
+//   origin: "http://localhost:5173", // if you're using Vite
+  origin: "http://deplyr-frontend.s3-website-us-east-1.amazonaws.com",
   methods: ["GET", "POST"],
   credentials: true
 }));

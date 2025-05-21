@@ -8,9 +8,10 @@ import { Input } from "../components/ui/input"
 import { Button } from "../components/ui/button"
 import { useState } from "react"
 import axios from "axios" 
-import { Car } from "lucide-react"
+// import { Car } from "lucide-react"
 
-const BACKEND_UPLOAD_URL = "http://localhost:3000";
+// const BACKEND_UPLOAD_URL = "http://localhost:3000";
+const BACKEND_UPLOAD_URL = "http://34.207.84.171:3000";
 
 export function Landing() {
   const [repoUrl, setRepoUrl] = useState("");
